@@ -3,25 +3,38 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 51px 91px;
+  padding: 92px 15px 91px;
   font-size: 18px;
   font-weight: 400;
 }
 
 .header_links_list {
   display: flex;
-  gap: 32px;
+  gap: 33px;
   white-space: nowrap;
   text-transform: lowercase;
-  padding-bottom: 4px;
+  padding-bottom: 6px;
+  padding-right: 9px;
+  justify-content: center;
+  list-style: none;
 }
 
 .header_links_list_item{
-list-style: circle;
+list-style: none;
+position: relative;
 }
 
 .header_links_list_item_active {
   list-style: none;
+}
+
+.header_links_list_item::before {
+  content: '○';
+  position: absolute;
+  left: -19px;
+  top: 17%;
+  color: rgb(0 0 0);
+  font-size: 14px;
 }
 
 .header_logo {
@@ -46,17 +59,20 @@ list-style: circle;
 
 .header_address {
   justify-self: end;
-  margin-right: 36px;
+  margin-right: 35px;
+  padding-top: 5px;
 }
 
 .address_item {
   font-size: 18px;
   line-height: 1.35;
+  padding-right: 5px;
 }
   
 .text_underline {
   border-bottom: 1px solid black; 
 }
+
 /* Конец шапки сайта */
 
 /* Начало главной страницы сайта */
@@ -189,10 +205,8 @@ list-style: circle;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  
     min-height: 596px; 
-    padding: 50px 40px;
-  
+    padding: 51px 40px 47px;
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -258,7 +272,7 @@ list-style: circle;
     display: grid;
     grid-template-columns: 334px 1fr;
     column-gap: 25px;
-    padding: 154px 24px 182px;
+    padding: 154px 24px 179px;
   }
 
   .about_column {
@@ -281,7 +295,7 @@ list-style: circle;
   }
   
   .about_title {
-  padding: 105px 0 95px;
+  padding: 105px 0 75px;
   font-weight: bold;
   font-size: 40px;
   line-height: 1;
@@ -290,7 +304,9 @@ list-style: circle;
   
   .about_text {
   font-size: 20px;
-  padding-top: 8px;
+  padding-top: 27px;
+  padding-right: 5px;
+  line-height: 24px;
   }
 /* Конец секции информации*/
 
