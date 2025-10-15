@@ -12,23 +12,23 @@
   <body>
     <header class="header">
       <nav class="header_menu">
-        <ul class="header_links_list">
-          <li class="header_links_list_item_active">
-            <a href="#">Главная</a>
+        <ul class="links_list">
+          <li class="links_list_item_no_bullit">
+            <a class="link_active" href="#">Главная</a>
           </li> 
-          <li class="header_links_list_item">
-            <a href="#"><span class="text_underline">Посмотреть лоты</span></a>
+          <li class="links_list_item">
+            <a href="#">Посмотреть лоты</a>
           </li>
-          <li class="header_links_list_item">
-          <a href="#"><span class="text_underline">Об аукционе</span></a>
+          <li class="links_list_item">
+          <a href="#">Об аукционе</span></a>
           </li>
         </ul>
       </nav>
       <a class="header_logo"> <img class="header_logo_image" src="images/logo-black.svg" alt="Логотип аукциона"></a>
       <address class="address header_address">
-        <a class="address_item" href="tel:+99995555555"><span class="text_underline">+9 999 555 5555</span></a>
-        <a class="address_item" href="mailto:info@sobaka.ge"><span class="text_underline">info@sobaka.ge</span></a>
-        <a class="address_item" href="#">наб. Принсенграхт 263-265, Амстердам</a>
+        <a class="address_item" href="tel:+99995555555">+9 999 555 5555</span></a>
+        <a class="address_item" href="mailto:info@sobaka.ge">info@sobaka.ge</span></a>
+        <a class="address_item link_active" href="#">наб. Принсенграхт 263-265, Амстердам</a>
       </address>
     </header>
     <main>
@@ -48,7 +48,7 @@
         <h2 class="lots_title">Лоты</h2>
         <ul class="lots_card_list">
           <li class="lots_card_list_item">
-            <a сlass="card_link" href="#">
+            <a class="card_link" href="#">
               <article class="card card_type_film">
                 <div class="overlay"></div>
                 <h3 class="lot_title">Фильм режиссёра, который бросил киношколу</h3>
@@ -59,7 +59,7 @@
             </a>
           </li>
           <li class="lots_card_list_item">
-            <a сlass="card_link" href="#">
+            <a class="card_link" href="#">
               <article class="card card_type_book">
                 <div class="overlay"></div>
                 <h3 class="lot_title">Книга, где описан один скучный день из жизни рекламного агента</h3>
@@ -71,7 +71,7 @@
             </a>
           </li>
           <li class="lots_card_list_item">
-            <a сlass="card_link" href="#">
+            <a class="card_link" href="#">
               <article class="card card_type_picture">
                 <div class="overlay"></div>
                 <h3 class="lot_title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
@@ -91,7 +91,7 @@
             <img class="about_logo_image" src="images/logo-white.svg" alt="Логотип проекта">
           </div>
         </div>
-        <div class="about_column">
+        <article class="about_column">
           <h2 class="about_title">Об аукционе</h2>
           <div class="about_column">
             <p class="about_text">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. 
@@ -109,31 +109,24 @@
       </section>
     </main>
     <footer class="footer">
-      <address class="footer_address"> 
-        <li class="address_item">
-          <a href="tel:+99995555555"><span class="text_underline">+9 999 555 5555</span></a>
-        </li>
-        <li class="address_item">
-          <a href="mailto:info@sobaka.ge"><span class="text_underline">info@sobaka.ge</span></a>
-        </li>
-        <li class="address_item">
-          <a href="#">наб. Принсенграхт 263-265,<br> Амстердам</a>
-        </li>
+      <address class="address footer_address"> 
+          <a class="address_item" href="tel:+99995555555">+9 999 555 5555</span></a>
+          <a class="address_item" href="mailto:info@sobaka.ge">info@sobaka.ge</span></a>
+          <a class="address_item link_active" href="#">наб. Принсенграхт 263-265,<br> Амстердам</a>
         </address>
         <nav class="footer_menu">
-          <ul class="footer_menu_list">
-            <li>
-              <a class="footer_menu_link_active" href="#">Главная</a>
+          <ul>
+            <li class="links_list_item_no_bullit">
+              <a class="link_active" href="#">Главная</a>
             </li> 
-            <li>
-              <a class="footer_menu_link" href="#">Посмотреть лоты</a>
+            <li class="links_list_item_no_bullit">
+              <a href="#">Посмотреть лоты</a>
             </li>
-            <li>
-            <a class="footer_menu_link" href="#">Об аукционе</a>
+            <li class="links_list_item_no_bullit">
+            <a href="#">Об аукционе</span></a>
             </li>
           </ul>
         </nav>
-        <div>
           <ul class="footer_social_list">
             <li class="footer_social_list_item">
               <a><img src="images/yt.svg" target="_blank" alt="Иконка аккаунта на YouTube"> </a>
@@ -145,7 +138,6 @@
               <a><img src="images/pinterest.svg" target="_blank" alt="Иконка аккаунта на Pinterest"> </a>
             </li>
           </ul>
-        </div>
     </footer>
   </body>
 </html>

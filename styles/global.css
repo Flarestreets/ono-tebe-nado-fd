@@ -32,7 +32,9 @@ blockquote {
 
 a {
   color: inherit;
-  text-decoration: none; /* Необходимо чтобы кастомизировать подчеркивание текста (сделать его ниже стандартного)*/
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
 }
 
 
