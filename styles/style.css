@@ -25,11 +25,9 @@ padding-left: 1px;
   padding-left: 34px;
   list-style: none;
 }
+
 .links_list_item {
   position: relative;
-}
-.links_list_item {
-position: relative;
 }
 
 .links_list_item::before {
@@ -39,6 +37,10 @@ position: relative;
   top: 15%;
   color: rgb(0 0 0);
   font-size: 14px;
+}
+
+.links_list_item_no_bullit::before {
+  content: none;
 }
 
 .header_logo {
