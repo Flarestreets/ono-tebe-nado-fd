@@ -1,4 +1,5 @@
 /* Начало шапки сайта */
+
 .link_active {
   list-style: none;
   text-decoration: none;
@@ -76,9 +77,11 @@ padding-left: 1px;
   line-height: 1.35;
   padding-right: 5px;
 }
+
 /* Конец шапки сайта */
 
 /* Начало главной страницы сайта */
+
 .cover {
   position: relative;
   background-image: url(../images/cover.jpg);
@@ -165,9 +168,11 @@ padding-left: 1px;
   color: rgb(255 255 255);
   text-transform: uppercase;
 }
+
 /* Конец главной страницы сайта */
 
 /* Начало секции лотов */
+
 .lots {
   padding: 180px 0 0 0;
   }
@@ -257,9 +262,11 @@ padding-left: 1px;
     border-bottom: 1px solid black; 
     width: fit-content;
   }
+
 /* Конец секции лотов */
 
 /* Начало секции информации*/
+
 .about {
     display: grid;
     grid-template-columns: 334px 1fr;
@@ -300,9 +307,11 @@ padding-left: 1px;
   padding-right: 5px;
   line-height: 24px;
   }
+
 /* Конец секции информации*/
 
 /* Начало футера */
+
 .footer {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
@@ -344,4 +353,5 @@ padding-left: 1px;
   line-height: 24.3px;
   max-width: 242px;
 }
+
 /* Конец футера*/
