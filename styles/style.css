@@ -225,13 +225,15 @@ padding-left: 1px;
   .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
   }
-  
+
   .lot_title {
     font-family: 'Raleway', 'Arial', sans-serif;
     font-size: 22px;
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
   }
   
   .lot_text {
